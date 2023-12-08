@@ -25,7 +25,11 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-svg-core", 
               "src/styles.css"
+              
+
             ],
             "scripts": []
           },
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "deb03cc4-6571-4868-b060-ec094cc1b9c6"
   }
 }
