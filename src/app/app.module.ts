@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { PageRegisterComponent } from './pages/page-register/page-register.component';
+import { PageDashbordsComponent } from './pages/page-dashbords/page-dashbords.component';
+import { PageStatistiqueComponent } from './pages/page-statistique/page-statistique.component';
+import { MenuComponent } from './componenets/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageLoginComponent,
-    PageRegisterComponent
+    PageRegisterComponent,
+    PageDashbordsComponent,
+    PageStatistiqueComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
